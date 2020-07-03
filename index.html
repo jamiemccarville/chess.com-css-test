@@ -6,13 +6,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chess.com CSS Test - Jamie McCarville
   </title>
-  <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="main.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600;700&display=swap"
+    rel="stylesheet">
 
 </head>
 
 <body>
-  <section id="top"></section>
+  <section id="top">
+    <header class="header">
+      <div class="go_back">
+        <img src="images/arrow-left.png" srcset="images/arrow-left@2x.png 2x,images/arrow-left@3x.png 3x"
+          alt="back arrow" class="arrow_left">
+        <p class="back_button">Back</p>
+
+      </div>
+      <div class="stars">
+        <img src="images/s.png" srcset="images/s@2x.png 2x,
+             images/s@3x.png 3x" alt="star" class="star">
+        <img src="images/s.png" srcset="images/s@2x.png 2x,images/s@3x.png 3x" alt="star" class="star">
+        <img src="images/s.png" srcset="images/s@2x.png 2x,images/s@3x.png 3x" alt="star" class="star">
+        <img src="images/s.png" srcset="images/s@2x.png 2x,images/s@3x.png 3x" alt="star" class="star">
+        <img src="images/s.png" srcset="images/s@2x.png 2x,images/s@3x.png 3x" alt="star" class="star" id="last_star">
+        <p class="app_reviews">722,000+ App Reviews</p>
+      </div>
+
+      <img src="images/group-44.png" srcset="images/group-44@2x.png 2x,images/group-44@3x.png 3x" class="logo"
+        alt="chess.com logo">
+    </header>
+    <article id="try_now">
+      <h1 class="heading">Try Premium and Play <br> Your Best Chess</h1>
+      <button class="trial_button">Start Your Free Trial</button>
+      <p class="skip">Skip for Now</p>
+    </article>
+    <img src="images/group-8.png" srcset="images/group-8@2x.png 2x,images/group-8@3x.png 3x" class="laptop">
+  </section>
   <section id="lessons"></section>
   <section id="puzzles"></section>
   <section id="analysis"></section>
