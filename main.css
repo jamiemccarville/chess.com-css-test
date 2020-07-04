@@ -622,11 +622,51 @@ html {
   letter-spacing: normal;
 }
 
+
+/* __________  PLAYERS SECTION  __________ */
+
 #players {
   width: 100%;
   /* height: 77.9rem; */
-  height: 78rem;
+  height: 65.8rem;
   background-color: #ffffff;
+  text-align: center;
+}
+
+.world_map_pic {
+  margin: 12.1rem auto 0;
+  width: 1235px;
+  height: 626px;
+  object-fit: contain;
+}
+
+.players_content {
+  margin-top: -39.1rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.players_heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.6rem;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #262421;
+}
+
+.players_text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.78;
+  letter-spacing: normal;
+  color: #312e2b;
+  margin-top: .8rem;
+}
+
+.players_text-span {
+  font-weight: 600;
 }
 
 #master {
