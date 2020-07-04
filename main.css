@@ -184,7 +184,7 @@ html {
   height: 39.4rem;
   object-fit: contain;
   /*! check the box shadow left side */
-  box-shadow: 0 1.6rem 1.6rem 0 rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 1.6rem 1.6rem 0 rgba(0, 0, 0, 0.1); */
   margin-left: 7.6rem;
 }
 
