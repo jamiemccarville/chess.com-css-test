@@ -2,6 +2,8 @@ html {
   font-size: 62.5%;
 }
 
+/* __________  TOP SECTION  __________ */
+
 #top {
   width: 100%;
   height: 61rem;
@@ -114,10 +116,111 @@ html {
   object-fit: contain;
 }
 
+/* __________  LESSONS SECTION  __________ */
+
 #lessons {
   width: 100%;
-  height: 76.7rem;
+  height: 57.5rem;
   background-color: #ffffff;
+
+}
+
+.cap {
+  width: 6.8rem;
+  height: 6.8rem;
+  object-fit: contain;
+  margin: 20.6rem auto 3.8rem;
+}
+
+.lessons_content {
+  display: flex;
+  margin-left: 23.2rem;
+}
+
+.lessons_text {}
+
+.lessons_heading {
+  font-size: 3.6rem;
+  font-weight: bold;
+  line-height: 1.33;
+  font-family: 'Montserrat', sans-serif;
+  color: #262421;
+
+}
+
+.lessons_copy {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.78;
+  color: #312e2b;
+  margin-top: 2.4rem
+}
+
+.lessons_numbers {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.78;
+  color: #312e2b;
+  margin-top: 2.6rem;
+}
+
+#lessons_daily {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.5;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #262421;
+  margin-right: 1.3rem;
+}
+
+#lessons_chess_board {
+  position: relative;
+}
+
+.lessons_chess_board-img {
+  width: 44.3rem;
+  height: 39.4rem;
+  object-fit: contain;
+  /*! check the box shadow left side */
+  box-shadow: 0 1.6rem 1.6rem 0 rgba(0, 0, 0, 0.1);
+  margin-left: 7.6rem;
+}
+
+.bubble {
+  border-radius: 8px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  position: absolute;
+  left: 13.7rem;
+  top: 4.4rem;
+}
+
+.bubble-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #312e2b;
+  margin: 1.7rem 2.5rem 2.1rem 2.1rem;
+}
+
+.bubble-square {
+  width: 21px;
+  height: 21px;
+  transform: rotate(-315deg);
+  border-radius: 2px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 32.7rem;
+  top: 8.1rem;
+}
+
+.puzzle_piece {
+  width: 68px;
+  height: 68px;
+  object-fit: contain;
+  margin: 3rem auto;
 }
 
 #puzzles {
