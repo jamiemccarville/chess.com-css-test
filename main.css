@@ -223,11 +223,47 @@ html {
   margin: 3rem auto;
 }
 
+/* __________  PUZZLES SECTION  __________ */
 #puzzles {
   width: 100%;
-  height: 68.7rem;
-  background-color: #0097c7
+  height: 65.5rem;
+  background-color: #0097c7;
+  text-align: center;
+  padding-top: 4.2rem;
 }
+
+.puzzles_heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.6rem;
+  font-weight: bold;
+  line-height: 1.33;
+  color: #ffffff;
+}
+
+.puzzles_chess_board {
+  width: 39.2rem;
+  height: 402px;
+  object-fit: contain;
+  margin: 2.7rem auto 0;
+}
+
+.puzzles_caption {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.5;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  margin-top: -1.8rem;
+}
+
+.magnifying_glass {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  margin: 1.6rem auto 0;
+}
+
 
 #analysis {
   width: 100%;
