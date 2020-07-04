@@ -5,3 +5,6 @@
 - puzzles section - the chess board asset is sized slightly different than on the design
   - I chose to make this section shorter to kep the distance between the elements the same as the design
   
+## TODO
+
+- adjust 5th start at the top of the page
