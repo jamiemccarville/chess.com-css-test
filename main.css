@@ -868,4 +868,73 @@ html {
   width: 100%;
   height: 110.4rem;
   background-color: #312e2b;
+  text-align: center;
+}
+
+.plans_stars_wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 7.3rem;
+}
+
+.plans_header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.3;
+  letter-spacing: 0.02px;
+  color: #ffffff;
+  margin-top: 1.7rem;
+}
+
+.bill_wrapper {
+  display: flex;
+  margin-top: 3.2rem;
+}
+
+.bill_monthly {
+  width: 333px;
+  height: 55px;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+  margin-left: 53.6rem;
+}
+
+.bill_monthly_text,
+.bill_yearly_text {
+  font-family: 'Open Sans';
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.009rem;
+  text-align: center;
+}
+
+.bill_monthly_text {
+  color: #4b4847;
+  text-align: left;
+  padding: 1.3rem 0 0 2.5rem;
+}
+
+.bill_yearly_text {
+  color: #ffffff;
+  padding: 1.5rem 0;
+}
+
+
+.bill_yearly {
+  width: 198px;
+  height: 55px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
+  background-color: #0097c7;
+  margin-left: -15.5rem;
+}
+
+.asterisk {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.008;
+  color: #ffffff;
+  margin: .7rem 0 0 16.8rem;
 }
