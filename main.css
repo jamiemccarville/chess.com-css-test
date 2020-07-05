@@ -368,10 +368,16 @@ html {
 
 .puzzles_heading {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.6rem;
+  font-size: 2.7rem;
   font-weight: bold;
   line-height: 1.33;
   color: #ffffff;
+}
+
+@media (min-width: 1440px) {
+  .puzzles_heading {
+    font-size: 3.6rem;
+  }
 }
 
 .puzzles_chess_board {
@@ -383,12 +389,18 @@ html {
 
 .puzzles_caption {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   font-weight: bold;
   line-height: 2.5;
   letter-spacing: 0.01rem;
   color: #ffffff;
   margin-top: -1.8rem;
+}
+
+@media (min-width: 1440px) {
+  .puzzles_caption {
+    font-size: 2.4rem;
+  }
 }
 
 .magnifying_glass {
