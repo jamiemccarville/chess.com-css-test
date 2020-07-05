@@ -98,7 +98,7 @@ html {
   color: #ffffff;
   margin-top: 2.7rem;
   margin-bottom: 1.1rem;
-  padding: 1.2rem 4rem;
+  padding: 1.45rem 4rem;
 
 }
 
@@ -339,13 +339,14 @@ html {
 
 .analysis_trial_button {
   border-radius: .4rem;
-  box-shadow: 0 .5rem 0 0 #0381b8;
+  box-shadow: 0 .3rem 0 0 #0381b8;
   background-color: #0097c7;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.8rem;
   font-weight: bold;
   color: #ffffff;
-  padding: 1.2rem 4rem;
+  padding: 1.45rem 4rem;
+
 }
 
 .analysis_stars {
@@ -719,7 +720,7 @@ html {
   border-radius: 8px;
   box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.08);
   background-color: #ffffff;
-  margin: 3.1rem auto;
+  margin: 2.9rem auto;
   position: relative;
   z-index: 99;
 }
