@@ -799,11 +799,70 @@ html {
 }
 
 
+/* __________  MISSION SECTION  __________ */
+
 #mission {
   width: 100%;
-  height: 88.8rem;
+  height: 44.1rem;
   background-color: #ffffff;
 }
+
+.mission_content {
+  margin-top: 44.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.group_13 {
+  width: 393px;
+  height: 301px;
+  object-fit: contain;
+  margin-top: 1.8rem;
+  margin-left: 3.3rem;
+}
+
+.group_14 {
+  width: 369px;
+  height: 333px;
+  object-fit: contain;
+  margin-top: -3.2rem;
+  margin-right: 3.7rem;
+}
+
+
+.mission_copy {
+  text-align: center;
+}
+
+.mission_header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.3;
+  letter-spacing: 0.02px;
+  color: #262421;
+}
+
+.mission_text-1,
+.mission_text-2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.78;
+  color: #312e2b;
+}
+
+.mission_text-1 {
+  margin-top: 2.7rem;
+}
+
+.mission_text-2 {
+  margin-top: 2.4rem;
+}
+
+#chesskid {
+  color: #0097c7;
+}
+
 
 #plans {
   width: 100%;
