@@ -24,8 +24,8 @@ html {
 }
 
 .arrow_left {
-  width: 24px;
-  height: 24px;
+  width: 2.4rem;
+  height: 2.4rem;
   object-fit: contain;
   opacity: 0.4;
   margin-left: 2.9rem;
@@ -33,10 +33,10 @@ html {
 }
 
 .back_button {
-  width: 68px;
-  height: 22px;
+  width: 6.8rem;
+  height: 2.2rem;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 600;
   color: #ffffff;
 }
@@ -50,8 +50,8 @@ html {
 }
 
 .star {
-  width: 18px;
-  height: 17px;
+  width: 1.8rem;
+  height: 1.7rem;
   object-fit: contain;
   margin-right: .4rem;
 }
@@ -62,17 +62,17 @@ html {
 }
 
 .app_reviews {
-  height: 22px;
+  height: 2.2rem;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 600;
   color: #ffffff;
   margin-top: -.1rem;
 }
 
 .logo {
-  width: 105px;
-  height: 29px;
+  width: 10.5rem;
+  height: 2.9rem;
   object-fit: contain;
   margin-top: .1rem;
   margin-right: 3.3rem;
@@ -85,7 +85,7 @@ html {
 
 .heading {
   font-family: Montserrat;
-  font-size: 48px;
+  font-size: 4.8rem;
   font-weight: bold;
   line-height: 1.17;
   color: #ffffff;
@@ -114,8 +114,8 @@ html {
 
 .laptop {
   margin: 2.7rem auto;
-  width: 755px;
-  height: 451px;
+  width: 75.5rem;
+  height: 45.1rem;
   object-fit: contain;
 }
 
@@ -172,7 +172,7 @@ html {
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.5;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.01rem;
   text-align: center;
   color: #262421;
   margin-right: 1.3rem;
@@ -192,8 +192,8 @@ html {
 }
 
 .bubble {
-  border-radius: 8px;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.15);
+  border-radius: .8rem;
+  box-shadow: 0 1.2rem 1.6rem 0 rgba(0, 0, 0, 0.15);
   background-color: #ffffff;
   position: absolute;
   left: 13.7rem;
@@ -202,17 +202,17 @@ html {
 
 .bubble-text {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.25;
   color: #312e2b;
   margin: 1.7rem 2.5rem 2.1rem 2.1rem;
 }
 
 .bubble-square {
-  width: 21px;
-  height: 21px;
+  width: 2.1rem;
+  height: 2.1rem;
   transform: rotate(-315deg);
-  border-radius: 2px;
+  border-radius: .2rem;
   background-color: #ffffff;
   position: absolute;
   left: 32.7rem;
@@ -220,8 +220,8 @@ html {
 }
 
 .puzzle_piece {
-  width: 68px;
-  height: 68px;
+  width: 6.8rem;
+  height: 6.8rem;
   object-fit: contain;
   margin: 3rem auto;
 }
@@ -245,7 +245,7 @@ html {
 
 .puzzles_chess_board {
   width: 39.2rem;
-  height: 402px;
+  height: 40.2rem;
   object-fit: contain;
   margin: 2.7rem auto 0;
 }
@@ -255,14 +255,14 @@ html {
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.5;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.01rem;
   color: #ffffff;
   margin-top: -1.8rem;
 }
 
 .magnifying_glass {
-  width: 72px;
-  height: 72px;
+  width: 7.2rem;
+  height: 7.2rem;
   object-fit: contain;
   margin: 1.6rem auto 0;
 }
@@ -285,8 +285,8 @@ html {
 .analysis_chess_board {}
 
 .analysis_chess_board-img {
-  width: 392px;
-  height: 392px;
+  width: 39.2rem;
+  height: 39.2rem;
   object-fit: cover;
 }
 
@@ -309,7 +309,7 @@ html {
 
 .analysis_review_text {
   border-radius: .8rem;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1.2rem 1.6rem 0 rgba(0, 0, 0, 0.08);
   background-color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.6rem;
@@ -360,8 +360,8 @@ html {
 }
 
 .analysis_star {
-  width: 18px;
-  height: 17px;
+  width: 1.8rem;
+  height: 1.7rem;
   object-fit: contain;
   margin-right: .4rem;
 }
@@ -371,9 +371,9 @@ html {
 }
 
 .analysis_app_reviews {
-  height: 22px;
+  height: 2.2rem;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 600;
   color: #4b4847;
   margin-top: -.1rem;
@@ -405,10 +405,10 @@ html {
 }
 
 .reviews_review_box {
-  width: 486px;
-  height: 240px;
-  border-radius: 8px;
-  border: solid 1px #f1f1f1;
+  width: 48.6rem;
+  height: 24.0rem;
+  border-radius: .8rem;
+  border: solid .1rem #f1f1f1;
   background-color: #ffffff;
   margin-left: 1.2rem;
   margin-right: 1.2rem;
@@ -426,7 +426,7 @@ html {
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 1.33;
-  letter-spacing: 0.18px;
+  letter-spacing: 0.018rem;
   color: #262421;
   margin-top: 4.1rem;
 }
@@ -499,22 +499,22 @@ html {
 }
 
 .coaches_pic {
-  width: 102px;
-  height: 102px;
+  width: 10.2rem;
+  height: 10.2rem;
   object-fit: contain;
   margin: 1rem auto .6rem;
 }
 
 .coaches_caption {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 1.78;
   color: #312e2b;
 }
 
 .coaches_caption-name {
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
   /* font-weight: 600; */
   line-height: 1.5;
   color: #666564;
@@ -523,7 +523,7 @@ html {
 
 #caption_name {
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: bold;
   color: #262421;
 }
@@ -571,7 +571,7 @@ html {
 
 .coaches_cards_captions-text {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.75;
   text-align: center;
   padding-top: .8rem;
@@ -639,8 +639,8 @@ html {
 
 .world_map_pic {
   margin: 12.1rem auto 0;
-  width: 1235px;
-  height: 626px;
+  width: 123.5rem;
+  height: 62.6rem;
   object-fit: contain;
 }
 
@@ -655,7 +655,7 @@ html {
   font-size: 3.6rem;
   font-weight: bold;
   line-height: 1.33;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.02rem;
   text-align: center;
   color: #262421;
 }
@@ -704,8 +704,8 @@ html {
 }
 
 .master_video {
-  width: 792px;
-  height: 436px;
+  width: 79.2rem;
+  height: 43.6rem;
   margin-top: 2.4rem;
 }
 
@@ -718,10 +718,10 @@ html {
 }
 
 .old_game {
-  width: 996px;
-  height: 457px;
-  border-radius: 8px;
-  box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.08);
+  width: 99.6rem;
+  height: 45.7rem;
+  border-radius: .8rem;
+  box-shadow: 0 1.5rem 3.5rem 0 rgba(0, 0, 0, 0.08);
   background-color: #ffffff;
   margin: 2.9rem auto;
   position: relative;
@@ -738,7 +738,7 @@ html {
   font-size: 3.6rem;
   font-weight: bold;
   line-height: 1.33;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.02rem;
   color: #262421;
 }
 
@@ -757,17 +757,17 @@ html {
 }
 
 .old_game_card {
-  width: 198px;
-  height: 198px;
-  border-radius: 16px;
+  width: 19.8rem;
+  height: 19.8rem;
+  border-radius: 1.6rem;
   background-color: #f1f1f1;
   margin: 2.5rem 3.65rem;
   text-align: center;
 }
 
 .lightbulb {
-  width: 62px;
-  height: 62px;
+  width: 6.2rem;
+  height: 6.2rem;
   object-fit: contain;
   margin: 2.4rem auto 0;
 }
@@ -817,16 +817,16 @@ html {
 }
 
 .group_13 {
-  width: 393px;
-  height: 301px;
+  width: 39.3rem;
+  height: 30.1rem;
   object-fit: contain;
   margin-top: 1.8rem;
   margin-left: 3.3rem;
 }
 
 .group_14 {
-  width: 369px;
-  height: 333px;
+  width: 36.9rem;
+  height: 33.3rem;
   object-fit: contain;
   margin-top: -3.2rem;
   margin-right: 3.7rem;
@@ -842,7 +842,7 @@ html {
   font-size: 4rem;
   font-weight: bold;
   line-height: 1.3;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.002rem;
   color: #262421;
 }
 
@@ -885,7 +885,7 @@ html {
   font-size: 4rem;
   font-weight: bold;
   line-height: 1.3;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.002rem;
   color: #ffffff;
   margin-top: 1.7rem;
 }
@@ -896,9 +896,9 @@ html {
 }
 
 .bill_monthly {
-  width: 333px;
-  height: 55px;
-  border-radius: 8px;
+  width: 33.3rem;
+  height: 5.5rem;
+  border-radius: .8rem;
   background-color: #f1f1f1;
   margin-left: 53.6rem;
 }
@@ -925,10 +925,10 @@ html {
 
 
 .bill_yearly {
-  width: 198px;
-  height: 55px;
-  border-radius: 8px;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
+  width: 19.8rem;
+  height: 5.5rem;
+  border-radius: .8rem;
+  box-shadow: 0 .5rem 1.0rem 0 rgba(0, 0, 0, 0.4);
   background-color: #0097c7;
   margin-left: -15.5rem;
 }
@@ -967,16 +967,16 @@ html {
 .plans_card-top {
   display: flex;
   align-items: center;
-  width: 322px;
-  height: 71px;
+  width: 32.2rem;
+  height: 7.1rem;
   background-color: #e7e6e4;
 }
 
 .plans_card-bottom {}
 
 .plans_card_popular-top {
-  width: 322px;
-  height: 100px;
+  width: 32.2rem;
+  height: 10.0rem;
   background-color: #0085b1;
   text-align: center;
 
@@ -1108,8 +1108,8 @@ html {
 .plans_button {
   height: 6.1rem;
   padding: 0 7rem;
-  border-radius: 8px;
-  box-shadow: 0 5px 0 0 #a8afb6;
+  border-radius: .8rem;
+  box-shadow: 0 .5rem 0 0 #a8afb6;
   background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.4rem;
@@ -1121,7 +1121,7 @@ html {
 
 #popular-button {
   margin-top: .2rem;
-  box-shadow: 0 5px 0 0 #c06700;
+  box-shadow: 0 .5rem 0 0 #c06700;
   background-color: #f18c00;
   color: #ffffff;
 }
