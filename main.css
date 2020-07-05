@@ -669,12 +669,134 @@ html {
   font-weight: 600;
 }
 
+
+/* __________  MASTER SECTION  __________ */
+
 #master {
   width: 100%;
   /* height: 97.9rem; */
   height: 98rem;
   background-color: #312e2b;
+  text-align: center;
 }
+
+.master_content {
+  padding-top: 4.3rem;
+  color: #ffffff;
+}
+
+.master_heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.6rem;
+  font-weight: bold;
+  line-height: 1.33;
+}
+
+.master_text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.78;
+  margin-top: 1.6rem;
+}
+
+.master_video {
+  width: 792px;
+  height: 436px;
+  margin-top: 2.4rem;
+}
+
+.master_trial {
+  margin-top: 5.5rem;
+}
+
+.master_app_reviews {
+  color: #ffffff;
+}
+
+.old_game {
+  width: 996px;
+  height: 457px;
+  border-radius: 8px;
+  box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  margin: 3.1rem auto;
+  position: relative;
+  z-index: 99;
+}
+
+.old_game_content {
+  padding-top: 5.3rem;
+  text-align: center;
+}
+
+.old_game_heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.6rem;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 0.2px;
+  color: #262421;
+}
+
+.old_game_text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.78;
+  color: #666564;
+  margin-top: .8rem;
+}
+
+.old_game_cards {
+  display: flex;
+  justify-content: center;
+}
+
+.old_game_card {
+  width: 198px;
+  height: 198px;
+  border-radius: 16px;
+  background-color: #f1f1f1;
+  margin: 2.5rem 3.65rem;
+  text-align: center;
+}
+
+.lightbulb {
+  width: 62px;
+  height: 62px;
+  object-fit: contain;
+  margin: 2.4rem auto 0;
+}
+
+.fun {
+  margin: 2.9rem auto 0;
+}
+
+.stopwatch {
+  margin: 2.7rem auto 0;
+}
+
+.old_game_card-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: 0.02rem;
+  color: #262421;
+}
+
+#old-1 {
+  margin-top: 1.5rem;
+}
+
+#old-2 {
+  margin-top: 1.1rem;
+}
+
+#old-3 {
+  margin-top: 1rem;
+}
+
 
 #mission {
   width: 100%;
