@@ -2,6 +2,7 @@ html {
   font-size: 62.5%;
 }
 
+
 /* __________  TOP SECTION  __________ */
 
 #top {
@@ -45,6 +46,7 @@ html {
   align-items: center;
   margin-top: .7rem;
   margin-left: 1.2rem;
+  position: relative;
 }
 
 .star {
@@ -56,6 +58,7 @@ html {
 
 #last_star {
   margin-right: 1.2rem;
+  mask: url(mask.png)
 }
 
 .app_reviews {
