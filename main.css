@@ -173,7 +173,7 @@ html {
 
 #lessons {
   width: 100%;
-  height: 77.5rem;
+
   background-color: #ffffff;
 }
 
@@ -345,7 +345,7 @@ html {
   width: 3.4rem;
   height: 3.4rem;
   object-fit: contain;
-  margin: .5rem auto;
+  margin: 0 auto -1.6rem;
 }
 
 @media (min-width: 1440px) {
@@ -360,10 +360,15 @@ html {
 
 #puzzles {
   width: 100%;
-  height: 65.5rem;
   background-color: #0097c7;
   text-align: center;
   padding-top: 4.2rem;
+}
+
+@media (min-width: 1440px) {
+  .puzzles {
+    height: 65.5rem;
+  }
 }
 
 .puzzles_heading {
@@ -404,25 +409,46 @@ html {
 }
 
 .magnifying_glass {
-  width: 7.2rem;
-  height: 7.2rem;
+  width: 4rem;
+  height: 4rem;
   object-fit: contain;
-  margin: 1.6rem auto 0;
+  margin: 1.6rem auto -5.5rem;
+}
+
+@media (min-width: 1440px) {
+  .magnifying_glass {
+    width: 7.2rem;
+    height: 7.2rem;
+    margin: 1.6rem auto 0;
+  }
 }
 
 /* __________  ANALYSIS SECTION  __________ */
 
 #analysis {
   width: 100%;
-  /* height: 67.9rem; */
-  height: 56.7rem;
   background-color: #ffffff;
+}
+
+@media (min-width: 1440px) {
+  #analysis {
+    height: 56.7rem;
+  }
 }
 
 .analysis_content {
   display: flex;
-  margin-top: 3.3rem;
+  flex-direction: column-reverse;
+  margin: 3.3rem .1rem;
   justify-content: center;
+}
+
+@media (min-width: 1440px) {
+  .analysis_content {
+    flex-direction: row;
+    margin: 3.3rem 0;
+    justify-content: center;
+  }
 }
 
 .analysis_chess_board-img {
@@ -431,21 +457,39 @@ html {
   object-fit: cover;
 }
 
+@media (min-width: 1440px) {
+  .analysis_chess_board-img {
+    margin: 0;
+  }
+}
+
 .analysis_text {
   margin-top: 3.8rem;
 }
 
 .analysis_heading {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.6rem;
+  font-size: 2.6rem;
   font-weight: bold;
   line-height: 1.33;
   color: #262421;
 }
 
+@media (min-width: 1440px) {
+  .analysis_heading {
+    font-size: 3.6rem;
+  }
+}
+
 .analysis_review {
-  margin-top: 6rem;
+  margin-top: 2rem;
   position: relative;
+}
+
+@media (min-width: 1440px) {
+  .analysis_review {
+    margin-top: 6rem;
+  }
 }
 
 .analysis_review_text {
@@ -456,8 +500,17 @@ html {
   font-size: 1.6rem;
   line-height: 1.75;
   color: #312e2b;
-  margin: 0 12rem 0 5.7rem;
-  padding: 1.0rem 2.4rem 1.8rem 2.0rem;
+  margin-left: 5rem;
+  padding-left: 3rem;
+  padding-right: .5rem;
+
+}
+
+@media (min-width: 1440px) {
+  .analysis_review_text {
+    margin: 0 12rem 0 5.7rem;
+    padding: 1.0rem 2.4rem 1.8rem 2.0rem;
+  }
 }
 
 .reviewer_pic {
@@ -477,8 +530,14 @@ html {
 }
 
 .analysis_button_wrapper {
-  width: 40%;
+  width: 80%;
   text-align: center;
+}
+
+@media (min-width: 1440px) {
+  .analysis_button_wrapper {
+    width: 40%;
+  }
 }
 
 .analysis_trial_button {
