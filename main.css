@@ -440,7 +440,7 @@ html {
 
 @media (min-width: 1440px) {
   #analysis {
-    height: 56.7rem;
+    height: 63.2rem;
   }
 }
 
@@ -456,6 +456,7 @@ html {
     flex-direction: row;
     margin: 3.3rem 0;
     justify-content: center;
+    padding-top: 3.3rem;
   }
 }
 
