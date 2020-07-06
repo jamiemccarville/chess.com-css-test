@@ -32,6 +32,12 @@ html {
   display: none;
 }
 
+@media (min-width: 768px) {
+  #hide-stars {
+    display: inherit;
+  }
+}
+
 @media (min-width: 1440px) {
   .header {
     justify-content: space-between;
@@ -42,12 +48,9 @@ html {
   .sm-hidden {
     display: inherit;
   }
-
-  #hide-stars {
-    display: inherit;
-  }
-
 }
+
+
 
 .go_back {
   display: flex;
@@ -168,6 +171,12 @@ html {
   object-fit: contain;
 }
 
+@media (min-width: 768px) {
+  .laptop {
+    width: 66%;
+  }
+}
+
 @media (min-width: 1440px) {
   .laptop {
     margin: 2.7rem auto;
@@ -184,9 +193,16 @@ html {
   background-color: #ffffff;
 }
 
+@media (min-width: 768px) {
+  #lessons {
+    padding-top: 9.5rem;
+  }
+}
+
 @media (min-width: 1440px) {
   #lessons {
     height: 57.5rem;
+    padding-top: 0;
   }
 }
 
@@ -197,7 +213,13 @@ html {
   margin: 12rem auto 3.8rem;
 }
 
-@media (min-width: 1440px) {
+.cap {
+  width: 6.8rem;
+  height: 6.8rem;
+  margin: 20.6rem auto 3.8rem;
+}
+
+@media (min-width: 1024px) {
   .cap {
     width: 6.8rem;
     height: 6.8rem;
@@ -205,12 +227,21 @@ html {
   }
 }
 
-
 .lessons_content {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .lessons_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    text-align: left;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -220,6 +251,7 @@ html {
     margin-left: 23.2rem;
     align-items: stretch;
     text-align: left;
+    justify-content: left;
   }
 }
 
@@ -296,12 +328,19 @@ html {
   margin-top: -2rem;
 }
 
+@media (min-width: 768px) {
+  .lessons_chess_board-img {
+    padding: 2rem 0;
+  }
+}
+
 @media (min-width: 1440px) {
   .lessons_chess_board-img {
     width: 44.3rem;
     height: 39.4rem;
     margin-left: 7.6rem;
     margin-top: 0;
+    padding: 0;
   }
 }
 
@@ -314,10 +353,15 @@ html {
   top: 4.4rem;
 }
 
+@media (min-width: 1024px) {
+  .bubble {
+    left: 4rem;
+  }
+}
+
 @media (min-width: 1440px) {
   .bubble {
     left: 13.7rem;
-    top: 4.4rem;
   }
 }
 
@@ -340,10 +384,15 @@ html {
   top: 8.1rem;
 }
 
+@media (min-width: 1024px) {
+  .bubble-square {
+    left: 23rem;
+  }
+}
+
 @media (min-width: 1440px) {
   .bubble-square {
     left: 32.7rem;
-    top: 8.1rem;
   }
 }
 
@@ -354,10 +403,17 @@ html {
   margin: 0 auto -1.6rem;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .puzzle_piece {
     width: 6.8rem;
     height: 6.8rem;
+    margin: 0 auto -3.3rem;
+
+  }
+}
+
+@media (min-width: 1440px) {
+  .puzzle_piece {
     margin: 3rem auto;
   }
 }
@@ -421,13 +477,14 @@ html {
   margin: 1.6rem auto -5.5rem;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .magnifying_glass {
     width: 7.2rem;
     height: 7.2rem;
     margin: 1.6rem auto -7.3rem;
   }
 }
+
 
 /* __________  ANALYSIS SECTION  __________ */
 
@@ -451,7 +508,7 @@ html {
   text-align: center;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .analysis_content {
     flex-direction: row;
     margin: 3.3rem 0;
@@ -630,13 +687,7 @@ html {
   margin-top: 3rem;
 }
 
-@media (min-width: 1440px) {
-  .reviews_ind_reviews {
-    margin-top: 5.3rem;
-  }
-}
-
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .reviews_ind_reviews {
     display: flex;
     flex-direction: row;
@@ -657,10 +708,11 @@ html {
   padding-bottom: 1.5rem;
   margin-bottom: 1rem;
   transition: transform .3s;
-  cursor: pointer
+  cursor: pointer;
+  max-width: 48.6rem;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .reviews_review_box {
     width: 48.6rem;
     height: 24.0rem;
@@ -676,9 +728,7 @@ html {
   }
 }
 
-.reviews_review_box:hover {}
-
-@media (min-width: 1440px) {
+@media (min-width: 1280px) {
   .reviews_review_box:hover {
     transform: scale(1.05);
   }
@@ -728,6 +778,12 @@ html {
   justify-content: center;
   margin: 1rem auto;
   padding-bottom: 3rem;
+}
+
+@media (min-width: 1024px) {
+  .reviews_buttons_wrapper {
+    margin-top: 3rem;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -812,13 +868,15 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-top: 4rem;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1280px) {
   .coaches_cards {
     flex-direction: row;
     justify-content: center;
+    align-items: stretch;
     margin-top: 4rem;
   }
 }
@@ -826,6 +884,8 @@ html {
 .coaches_trajectory,
 .coaches_beat_friends {
   margin: 0 .5rem;
+  width: 100%;
+  max-width: 53rem;
 }
 
 .coaches_cards_captions-wrapper {
@@ -835,7 +895,7 @@ html {
   margin-top: -53rem;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1280px) {
   .coaches_cards_captions-wrapper {
     flex-direction: row;
     align-items: center;
@@ -847,24 +907,65 @@ html {
   margin-top: -.2rem;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 414px) {
+  .coaches_cards_captions-1 {
+    margin-top: -5rem;
+  }
+
+  .x-show {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .coaches_cards_captions-1 {
+    margin-top: -19rem;
+  }
+}
+
+@media (min-width: 1280px) {
   .coaches_cards_captions-1 {
     margin-top: -.2rem;
+    margin-left: 22rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .coaches_cards_captions-1 {
     margin-left: 27.4rem;
   }
 }
+
+
 
 .coaches_cards_captions-2 {
   margin-top: 31rem;
   padding-top: 2.8rem;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 414px) {
+  .coaches_cards_captions-2 {
+    margin-top: 35rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .coaches_cards_captions-2 {
+    margin-top: 48rem;
+  }
+}
+
+@media (min-width: 1280px) {
   .coaches_cards_captions-2 {
     padding-top: 2.8rem;
-    margin-left: 19rem;
+    margin-left: 23.5rem;
     margin-top: 0;
+  }
+}
 
+@media (min-width: 1440px) {
+  .coaches_cards_captions-2 {
+    margin-left: 19rem;
   }
 }
 
@@ -908,7 +1009,7 @@ html {
   margin-top: 6rem;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1280px) {
   .coaches_trial {
     margin-top: 10.4rem;
   }
@@ -950,6 +1051,30 @@ html {
   color: #ffffff;
 }
 
+@media (min-width: 414px) {
+  .team_content {
+    margin-top: -29rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .team_content {
+    margin-top: -48rem;
+  }
+}
+
+@media (min-width: 824px) {
+  .team_heading {
+    margin-top: -51rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .team_heading {
+    margin-top: -62rem;
+  }
+}
+
 @media (min-width: 1440px) {
   .team_content {
     margin-top: -75.7rem;
@@ -962,6 +1087,12 @@ html {
   font-weight: bold;
   line-height: 1.89;
   letter-spacing: 0.013rem;
+}
+
+@media (min-width: 768px) {
+  .team_heading {
+    font-size: 2.4rem;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -977,7 +1108,7 @@ html {
   letter-spacing: normal;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .team_text {
     font-size: 1.8rem;
   }
@@ -994,7 +1125,7 @@ html {
   text-align: center;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1280px) {
   #players {
     height: 65.8rem;
   }
@@ -1006,19 +1137,43 @@ html {
   object-fit: contain;
 }
 
+@media (min-width: 768px) {
+  .world_map_pic {
+    margin: 40rem auto 0;
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .world_map_pic {
+    margin: 52rem auto 0;
+  }
+}
+
 @media (min-width: 1440px) {
   .world_map_pic {
     margin: 19.1rem auto 0;
-    padding-top: 0;
   }
 }
 
 .players_content {
   text-align: center;
-  /* color: #ffffff; */
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
+  .players_content {
+    padding-bottom: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .players_content {
+    margin-top: -34.1rem;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 1280px) {
   .players_content {
     margin-top: -39.1rem;
   }
@@ -1068,7 +1223,7 @@ html {
   text-align: center;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1280px) {
   #master {
     height: 98rem;
   }
@@ -1103,6 +1258,13 @@ html {
   width: 100%;
   height: auto;
   margin-top: 2.4rem;
+  max-width: 79.2rem;
+}
+
+@media (min-width: 768px) {
+  .master_video {
+    padding: 0 2rem;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -1131,12 +1293,11 @@ html {
   z-index: 99;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1280px) {
   .old_game {
     width: 99.6rem;
     height: 45.7rem;
     border-radius: .8rem;
-
   }
 }
 
@@ -1182,16 +1343,21 @@ html {
   align-items: center;
   padding-bottom: 2rem;
   padding-top: 2rem;
-
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
   .old_game_cards {
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
-    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .old_game_cards {
     padding-top: 0;
+    padding-bottom: 0;
+
   }
 }
 
@@ -1204,7 +1370,7 @@ html {
   text-align: center;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
   .old_game_card {
     margin: 2.5rem 3.65rem;
   }
@@ -1254,7 +1420,7 @@ html {
   background-color: #ffffff;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1280px) {
   #mission {
     height: 44.1rem;
   }
@@ -1268,13 +1434,19 @@ html {
   align-items: center;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1280px) {
   .mission_content {
-    margin-top: 44.7rem;
+    margin-top: 38.7rem;
     display: flex;
     flex-direction: row;
     align-items: stretch;
     justify-content: space-between;
+  }
+}
+
+@media (min-width: 1440px) {
+  .mission_content {
+    margin-top: 44.7rem;
   }
 }
 
@@ -1407,7 +1579,16 @@ html {
 
 .bill_wrapper {
   display: flex;
+  justify-content: center;
   margin-top: 3.2rem;
+}
+
+.bill_wrapper_inside {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .bill_wrapper-inside {}
 }
 
 .bill_monthly {
@@ -1416,12 +1597,6 @@ html {
   border-radius: .8rem;
   background-color: #f1f1f1;
   margin-left: 2%;
-}
-
-@media (min-width: 1440px) {
-  .bill_monthly {
-    margin-left: 53.6rem;
-  }
 }
 
 .bill_monthly_text,
@@ -1476,7 +1651,7 @@ html {
   margin-top: 3.1rem;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1280px) {
   .plans_cards {
     flex-direction: row;
     margin-top: 3.1rem;
@@ -1494,7 +1669,7 @@ html {
   overflow: hidden;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1280px) {
 
   .plans_card,
   .plans_card_popular {
@@ -1675,6 +1850,13 @@ html {
   padding-bottom: 2.5rem;
 }
 
+@media (min-width: 1280px) {
+  .plans_disclaimer {
+    margin-top: 3rem;
+    padding-bottom: 5rem;
+  }
+}
+
 @media (min-width: 1440px) {
   .plans_disclaimer {
     margin-top: 4.7rem;
@@ -1689,5 +1871,21 @@ html {
 @media (min-width: 1440px) {
   .hide-br {
     display: inherit;
+  }
+
+  .hide-br-lg {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .med-show {
+    display: block;
+  }
+}
+
+@media (min-width: 1280px) {
+  .med-hidden {
+    display: none;
   }
 }
