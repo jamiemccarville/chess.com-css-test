@@ -1003,33 +1003,62 @@ html {
 
 #players {
   width: 100%;
-  /* height: 77.9rem; */
-  height: 65.8rem;
+  /* height: 65.8rem; */
+  min-height: 60rem;
   background-color: #ffffff;
   text-align: center;
 }
 
+@media (min-width: 1440px) {
+  #players {
+    height: 65.8rem;
+  }
+}
+
 .world_map_pic {
-  margin: 19.1rem auto 0;
-  width: 123.5rem;
-  height: 62.6rem;
+  padding-top: 21rem;
+  margin: 0 auto 0;
   object-fit: contain;
 }
 
+@media (min-width: 1440px) {
+  .world_map_pic {
+    margin: 19.1rem auto 0;
+    padding-top: 0;
+  }
+}
+
 .players_content {
-  margin-top: -39.1rem;
   text-align: center;
-  color: #ffffff;
+  /* color: #ffffff; */
+}
+
+@media (min-width: 1440px) {
+  .players_content {
+    margin-top: -39.1rem;
+  }
 }
 
 .players_heading {
+  padding-top: 2rem;
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.6rem;
+  font-size: 2.7rem;
   font-weight: bold;
   line-height: 1.33;
   letter-spacing: 0.02rem;
   text-align: center;
   color: #262421;
+}
+
+@media (min-width: 1440px) {
+  .players_heading {
+    font-size: 3.6rem;
+    padding-top: 0;
+  }
+
+  .lg-hidden {
+    display: none;
+  }
 }
 
 .players_text {
