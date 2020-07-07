@@ -264,12 +264,16 @@ html {
 
 @media (min-width: 1440px) {
   .lessons_content {
-    display: flex;
-    flex-direction: row;
     margin-left: 23.2rem;
-    align-items: stretch;
-    text-align: left;
     justify-content: left;
+  }
+}
+
+@media (min-width: 1441px) {
+  .lessons_content {
+    margin-left: 0;
+    flex-direction: row;
+    justify-content: center;
   }
 }
 
@@ -923,6 +927,13 @@ html {
     flex-direction: row;
     align-items: center;
     margin-top: -18rem;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1441px) {
+  .coaches_cards_captions-wrapper {
+    justify-content: center;
   }
 }
 
@@ -940,7 +951,7 @@ html {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 530px) {
   .coaches_cards_captions-1 {
     margin-top: -19rem;
   }
@@ -949,17 +960,14 @@ html {
 @media (min-width: 1280px) {
   .coaches_cards_captions-1 {
     margin-top: -.2rem;
-    margin-left: 19rem;
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1441px) {
   .coaches_cards_captions-1 {
-    margin-left: 27.4rem;
+    margin-left: 0;
   }
 }
-
-
 
 .coaches_cards_captions-2 {
   margin-top: 31rem;
@@ -972,7 +980,7 @@ html {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 530px) {
   .coaches_cards_captions-2 {
     margin-top: 48rem;
   }
@@ -1030,6 +1038,7 @@ html {
 
 .coaches_trial {
   margin-top: 6rem;
+  padding-bottom: 1rem;
 }
 
 @media (min-width: 1280px) {
@@ -1066,47 +1075,33 @@ html {
 
 .team_picture {
   object-fit: contain;
+  width: 100%;
+  height: auto;
 }
 
 .team_content {
-  margin-top: -27rem;
+  margin-bottom: -9rem;
   text-align: center;
   color: #ffffff;
-}
-
-@media (min-width: 414px) {
-  .team_content {
-    margin-top: -29rem;
-  }
+  position: relative;
+  z-index: 99;
 }
 
 @media (min-width: 768px) {
   .team_content {
-    margin-top: -48rem;
-  }
-}
-
-@media (min-width: 824px) {
-  .team_heading {
-    margin-top: -51rem;
+    margin-bottom: -12rem;
   }
 }
 
 @media (min-width: 1024px) {
-  .team_heading {
-    margin-top: -62rem;
-  }
-}
-
-@media (min-width: 1280px) {
   .team_content {
-    margin-top: -70rem;
+    margin-bottom: -14rem;
   }
 }
 
 @media (min-width: 1440px) {
   .team_content {
-    margin-top: -75.7rem;
+    margin-bottom: -17.9rem;
   }
 }
 
@@ -1148,7 +1143,6 @@ html {
 
 #players {
   width: 100%;
-  /* height: 65.8rem; */
   min-height: 60rem;
   background-color: #ffffff;
   text-align: center;
@@ -1156,32 +1150,50 @@ html {
 
 @media (min-width: 1280px) {
   #players {
-    height: 65.8rem;
+    min-height: 65.8rem;
   }
 }
 
 .world_map_pic {
-  padding-top: 21rem;
-  margin: 0 auto 0;
+  /* padding-top: 21rem; */
+  margin: 0 auto;
   object-fit: contain;
 }
 
 @media (min-width: 768px) {
   .world_map_pic {
-    margin: 40rem auto 0;
+    /* margin: 40rem auto 0; */
     padding-top: 0;
   }
 }
 
 @media (min-width: 1024px) {
   .world_map_pic {
-    margin: 52rem auto 0;
+    /* margin: 52rem auto 0; */
   }
 }
 
 @media (min-width: 1440px) {
   .world_map_pic {
-    margin: 19.1rem auto 0;
+    margin-top: 7.4rem;
+  }
+}
+
+@media (min-width: 1680px) {
+  .world_map_pic {
+    margin-top: 18rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .world_map_pic {
+    margin-top: 30rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .world_map_pic {
+    margin-top: 70rem;
   }
 }
 
@@ -1479,6 +1491,14 @@ html {
   }
 }
 
+@media (min-width: 1441px) {
+  .mission_content {
+    justify-content: space-evenly;
+  }
+}
+
+
+
 .group_13 {
   width: 39.3rem;
   height: 30.1rem;
@@ -1764,23 +1784,26 @@ html {
 }
 
 .plan_star {
-  width: 3rem;
-  height: 2.9rem;
+  width: 30px;
+  height: 29px;
+  object-fit: contain;
   margin-left: 11.1rem;
   margin-right: 1.2rem;
 }
 
 .crown {
-  width: 2.9rem;
-  height: auto;
+  width: 29px;
+  height: 29px;
+  object-fit: contain;
   margin-left: 8rem;
   margin-right: 1.5rem;
 }
 
 .diamond {
-  width: 3rem;
-  height: auto;
-  margin-left: 8rem;
+  width: 33px;
+  height: 33px;
+  object-fit: contain;
+  margin-left: 7.8rem;
   margin-right: 1.3rem;
 }
 
